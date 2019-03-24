@@ -1,0 +1,5 @@
+export const HOSTNAME = `https://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/`;
+export const TOP_SONGS_BY_COUNTRY = `https://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/chart.tracks.get?apikey=${process.env.REACT_APP_MM_KEY}&chart_name=top&page=1&page_size=10&f_has_lyrics=1&country=`;
+export const TRACK_LYRICS = `https://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=${process.env.REACT_APP_MM_KEY}&track_id=`;
+export const TRACK_DETAILS = `https://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/track.get?apikey=${process.env.REACT_APP_MM_KEY}&track_id=`;
+export const TRACK_SEARCH = `https://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/track.search?apikey=${process.env.REACT_APP_MM_KEY}&page_size=10&page=1&s_track_rating=desc&q_track=`

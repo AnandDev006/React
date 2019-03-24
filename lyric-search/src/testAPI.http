@@ -1,0 +1,12 @@
+GET https://api.musixmatch.com/ws/1.1/chart.tracks.get?chart_name=top&apikey=9d3b6e250a47e524658406d555db4128&page=1&page_size=10&country=in&f_has_lyrics=1
+
+###
+
+GET https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=9d3b6e250a47e524658406d555db4128&track_id=15953433
+
+###
+
+GET https://api.musixmatch.com/ws/1.1/track.get?apikey=9d3b6e250a47e524658406d555db4128&track_id=15953433
+
+###
+GET https://api.musixmatch.com/ws/1.1/track.search?apikey=9d3b6e250a47e524658406d555db4128&page_size=3&page=1&s_track_rating=desc&q_track=Baby
